@@ -19,7 +19,7 @@ const App = () => {
   }, []);
 
   return (
-    <>
+    <div basename={window.location.pathname || ''}>
       <Header />
       <Nav />
       <Suspense fallback={<div>Loading...</div>}>
@@ -31,7 +31,7 @@ const App = () => {
         <Contact />
       <Footer />
       </Suspense>
-    </>
+    </div>
   );
 };
 
