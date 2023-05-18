@@ -1,0 +1,17 @@
+ .container.Testimonials_container{
+        @apply w-[40%] max-lg:w-[60%] max-[600px]:w-contanier-width-sm pb-[4rem]
+    }
+    .client_avatar{
+        @apply w-[4rem] aspect-[1/1] overflow-hidden rounded-full mt-0 mx-auto mb-4
+        border-[0.4rem] border-color-primary-variant border-solid 
+    }
+ .Testimonial{
+    @apply bg-color-bg-variant text-center p-8 rounded-[2rem] select-none
+ }
+ .client_Review{
+    @apply text-color-light font-light mt-[0.8rem] mx-auto mb-0 block
+    max-[600px]:w-contanier-width-sm
+}
+.swiper-pagination-clickable .swiper-pagination-bullet{
+    @apply bg-color-primary 
+}

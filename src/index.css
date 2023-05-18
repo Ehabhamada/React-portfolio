@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+  body{
+    @apply bg-color-bg text-color-white leading-[1.7] font-Poppins bg-hero-pattern;
+  }
+ 
+  *{
+    @apply m-0 p-0 box-border border-none outline-none list-none;
+  }
+  ::-webkit-scrollbar{
+    @apply hidden ;
+  }
+  h1,h2,h3,h4,h5{
+    @apply font-[500] max-[300px]:font-light ;
+  }
+  h1{
+    @apply text-[2.5rem] max-[300px]:text-[1.5rem]
+  }
+  section{
+    @apply mt-[8rem] ;
+  }
+  section >h2, section >h5{
+    @apply text-center text-color-light  ;
+  }
+  section >h2{
+    @apply  text-color-primary mb-12 sm:mb-[2rem] text-2xl;
+  }
+  .text-light{
+    @apply text-color-light;
+  }
+  a{
+    @apply text-color-primary hover:text-color-white transition-all duration-400 ease-linear;
+  }
+  .btn {
+    @apply w-max inline-block rounded-md border border-solid border-color-primary px-4 py-2  text-color-primary transition-all duration-400 ease-linear hover:bg-color-white outline-0 hover:text-color-bg hover:border-[transparent]
+    max-[300px]:text-[12px]
+     
+  }
+  .btn-primary {
+    @apply text-color-bg bg-color-primary hover:text-color-bg hover:bg-color-white;
+  }
+  img{
+    @apply block w-full object-cover;
+  }
+  .container{
+   @apply mx-auto lg:w-contanier-width-lg md:w-contanier-width-md max-sm:w-contanier-width-sm ;
+  }
+

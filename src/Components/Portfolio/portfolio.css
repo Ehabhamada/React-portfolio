@@ -1,0 +1,17 @@
+.Portfolio_container{
+    @apply grid grid-cols-[repeat(3,1fr)] gap-[2.5rem] justify-center 
+    max-lg:grid-cols-[1fr,1fr] max-lg:gap-[1.2rem] max-[600px]:grid-cols-[1fr] max-[600px]:gap-[1rem]
+}
+.Portfolio_item{
+    @apply bg-color-bg-variant p-[1.3rem] rounded-[2rem] border border-solid border-transparent transition-all duration-400 ease-linear 
+            hover:border-color-primary-variant hover:bg-transparent
+}
+.Portfolio_item-image{
+@apply rounded-[1.5rem] overflow-hidden
+}
+.Portfolio_item h3{
+    @apply mt-[1.2rem] mb-8 
+}
+.Portfolio_item-CTA{
+    @apply flex gap-4 mb-4
+}

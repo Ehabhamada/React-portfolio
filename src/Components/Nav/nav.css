@@ -1,0 +1,13 @@
+
+    nav{
+    @apply bg-[rgba(0,0,0,0.3)] w-max py-[0.7rem] px-[1.7rem] flex gap-[0.8rem] rounded-[3rem] backdrop:blur-[15px]
+           fixed z-10 left-2/4 -translate-x-2/4 bottom-8 max-[300px]:w-[90%] max-[300px]:bottom-16
+    
+  }
+  nav a{
+    @apply bg-transparent p-[0.9rem] rounded-full flex text-color-light text-[1.1rem] hover:bg-[0,0,0,0.3]  active:text-color-white ;
+  }
+  .active{
+    @apply bg-color-primary text-color-bg  
+  }
+

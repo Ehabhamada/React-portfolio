@@ -1,0 +1,20 @@
+    .experience_container{
+        @apply grid grid-cols-[1fr,1fr] gap-8 justify-center max-lg:grid-cols-1 max-[600px]:gap-4;
+      }
+    .experience_container > div{
+       @apply 
+       bg-color-bg-variant rounded-[2rem] py-[2.4rem] px-20 transition-all duration-400 ease-linear hover:bg-transparent hover:border-color-primary-variant cursor-default
+       max-lg:w-[80%] p-8 my-0 mx-auto max-[600px]:w-full max-[600px]:py-8 max-[600px]:px-4
+    }
+    .experience_container > div h3{
+       @apply text-center text-color-primary mb-[2rem]
+    }
+    .experience_content{
+       @apply grid grid-cols-[1fr,1fr] gap-x-8 justify-center max-lg:p-4
+    }
+.experience_details{
+    @apply flex gap-4
+}
+.experience_details-icon{
+   @apply mt-[6px] text-color-primary
+}

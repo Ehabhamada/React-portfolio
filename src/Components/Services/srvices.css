@@ -1,0 +1,26 @@
+   .services_container{
+    @apply grid grid-cols-[repeat(3,1fr)] gap-12 max-lg:grid-cols-[1fr,1fr]
+    lg:gap-[2rem] max-[600px]:grid-cols-[1fr] max-[600px]:gap-[1.5rem]
+
+   } 
+.service{
+    @apply bg-color-bg-variant rounded-b-[2rem] border border-solid border-color-primary
+           h-fit overflow-hidden transition-all duration-400 ease-linear hover:bg-transparent
+           border-color-primary-variant cursor-default max-lg:h-auto
+           
+}
+.service_head{
+    @apply bg-color-primary p-8 md:p-8 lg:p-6  rounded-b-[2rem] shadow-[]
+}
+.service_head h3{
+    @apply text-color-bg text-[1rem] text-center
+}
+.service_list{
+    @apply p-8 lg:p-2
+}
+.service_list-icon{
+    @apply text-color-primary mt-[2px] text-xl
+}
+.service_list li{
+    @apply flex gap-4  mb-[0.8rem] lg:text-sm
+}

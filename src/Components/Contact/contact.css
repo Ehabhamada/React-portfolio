@@ -1,0 +1,27 @@
+    .container.Contact_container{
+      @apply  w-[70%] grid grid-cols-[35%,58%] gap-[5%] 
+      max-lg:grid-cols-[1fr] max-lg:gap-8 max-[600px]:w-contanier-width-sm
+      lg:w-[70%] lg:grid-cols-[35%,58%] lg:gap-[5%] 
+    }
+    .Contact_options{
+        @apply flex flex-col gap-[1.2rem]
+    }
+    .Contact_option{
+        @apply bg-color-bg-variant  p-[1.2rem]  rounded-[1.2rem] text-center
+        border border-solid border-transparent transition-all duration-400 ease-linear hover:bg-transparent
+        hover:border-color-primary-variant flex flex-col justify-center items-center aspect-auto
+        text-ellipsis overflow-hidden
+    }
+    .Contact_option-icon{
+        @apply text-[1.5rem] mb-[0.5]
+    }
+    .Contact_option a{
+        @apply  mt-[0.7rem] inline-block text-[0.8rem]
+    }
+    form{
+        @apply flex flex-col gap-[1.2rem]
+    }
+    .input-textarea{
+        @apply w-full text-color-white p-[1.5rem] rounded-[0.5rem] bg-transparent border-2 border-solid border-color-primary-variant resize-none
+    }
+

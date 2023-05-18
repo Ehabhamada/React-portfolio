@@ -1,0 +1,79 @@
+    .header {
+        @apply  h-screen pt-28 overflow-hidden max-[600px]:h-screen 
+        lg:pt-12 max-[300px]:pt-20
+      }
+      .header_container{
+        @apply h-full text-center relative;
+      }
+.text-animate h5 {
+  @apply text-[3.2rem] font-bold text-transparent bg-[linear-gradient(#4db5ff,#4db5ff)] bg-no-repeat bg-clip-text bg-[0_0] animate-[Title-Text_6s_infinite_2s_linear] before:content-[''] before:absolute before:w-0 before:h-full before:z-[-1] before:animate-[Title-crusor_6s_infinite_2s_linear] before:border-r-2 before:border-r-[#4db5ff] before:border-solid before:left-0 before:top-0
+  lg:text-[2rem]; 
+  -webkit-text-stroke: 0.7px #4db5ff;
+  -webkit-background-clip:text;
+}
+      @keyframes Title-Text {
+        0%,10%,100%{
+          background-position: -20rem 0;
+        }
+        65%,85%{
+          background-position: 0 0;
+        }
+      }
+      @keyframes Title-crusor {
+        0%,10%,100%{
+          width:0
+        }
+        65%,85%{
+          width: 100%;
+          opacity: 1;
+        }
+        75%,81%{
+          opacity: 0;
+        }
+      }
+      .text-animate h5{
+        @apply max-[600px]:font-medium max-[600px]:text-3xl max-[300px]:text-2xl
+       }
+      .header-social {
+        @apply flex justify-center items-center absolute left-0 bottom-12 flex-col gap-3 after:h-4 after:w-[1px] after:bg-color-primary-variant;
+               
+      }
+      .SocialIcon {
+        @apply max-sm:hidden text-color-primary hover:text-color-white text-2xl transition-all ease-in duration-400 ;
+      }
+      .header-social::after {
+        @apply max-sm:hidden h-[2rem] w-[1px] bg-color-primary;
+      }
+      .me {
+        @apply bg-gradient-to-b from-color-primary to-transparent  w-[22rem] h-[30rem] absolute left-2/4 -translate-x-2/4 mt-16 rounded-tl-[12rem] rounded-tr-[12rem] rounded-b-none overflow-hidden pt-20 px-6 pb-6
+          lg:w-[18rem] lg:h-[26rem] max-[375px]:w-[16rem] max-[300px]:h-[24rem]
+      }
+      .scroll_down {
+        @apply  max-sm:hidden text-[0.9rem] absolute right-[-2.3rem] bottom-[5rem] rotate-90 font-[300] text-color-primary hover:text-color-white;
+      }
+      .CTA{
+        @apply flex justify-center gap-5 mt-10;
+      }
+
+      @media (width:688px) {
+        @keyframes Title-Text {
+          0%,10%,100%{
+            background-position: -33rem 0;
+          }
+          65%,85%{
+            background-position: 0 0;
+          }
+        }
+        @keyframes Title-crusor {
+          0%,10%,100%{
+            width:0
+          }
+          65%,85%{
+            width: 100%;
+            opacity: 1;
+          }
+          75%,81%{
+            opacity: 0;
+          }
+        }
+      }

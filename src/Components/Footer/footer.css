@@ -1,0 +1,27 @@
+    footer{
+        @apply bg-color-primary text-center text-[0.9rem] mt-[0.7rem] py-[3rem] px-0 
+
+    }
+    footer a{
+        @apply text-color-bg 
+    }
+    .footer_logo{
+        @apply inline-block text-[2rem] font-medium mb-8 uppercase
+    } 
+    .premalinks{
+        @apply flex justify-center flex-wrap gap-8 mx-auto mt-0 mb-[3rem]
+        max-[600px]:flex-col max-[600px]:gap-[1.5rem]
+    }
+    .footer_social{
+        @apply flex gap-4 justify-center mb-16
+    }
+    .footer_social{
+        @apply flex gap-4 justify-center mb-16 max-[600px]:mb-[2.6rem]
+    }
+    .footer_social a{
+        @apply flex bg-color-bg text-color-white p-[0.8rem] rounded-[0.7rem] border-solid
+        border border-transparent hover:bg-transparent hover:text-color-bg hover:border-color-bg
+    }
+    .footer_copyright{
+        @apply mb-[4rem] text-color-bg
+    }
