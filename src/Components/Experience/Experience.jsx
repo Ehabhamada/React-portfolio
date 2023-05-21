@@ -5,17 +5,17 @@ import "./experince.css";
 const FEskills = [
   { name: "Html", experience: "Experienced" },
   { name: "CSS", experience: "Intermediate" },
-  { name: "JavaScript", experience: "Experienced" },
+  { name: "JavaScript", experience: "Advanced" },
   { name: "React", experience: "Experienced" },
   { name: "Bootstrap", experience: "Experienced" },
   { name: "Tailwind", experience: "Experienced" },
 ];
 
 const BEskills = [
-  { name: "PHP", experience: "Experienced" },
-  { name: "MySql", experience: "Experienced" },
-  { name: "Node JS", experience: "Experienced" },
-  { name: "MongoDB", experience: "Experienced" },
+  { name: "PHP", experience: "Beginner" },
+  { name: "MySql", experience: "Beginner" },
+  { name: "Node JS", experience: "Beginner" },
+  { name: "MongoDB", experience: "Beginner" },
   { name: "Python", experience: "Intermediate" },
 ];
 

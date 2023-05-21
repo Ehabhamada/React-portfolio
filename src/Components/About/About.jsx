@@ -20,7 +20,7 @@ function About() {
             <article className="about_card">
               <FaAward className='about-icon self-center' />
               <h5>Experience</h5>
-              <small>1+ Year Working</small>
+              <small>1+ Years Working</small>
             </article>
             <article className="about_card">
               <FiUsers className='about-icon' />
@@ -30,12 +30,11 @@ function About() {
             <article className="about_card">
               <VscFolderLibrary className='about-icon' />
               <h5>Projects</h5>
-              <small>80+ Completed</small>
+              <small>16+ Completed</small>
             </article>
           </div>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum, rerum et nihil aliquam tempora, vitae hic necessitatibus, error nulla quam sed minima dolorum reprehenderit nesciunt non porro! Quibusdam, sint error?
-          </p>
+Front-end developer specialized in designing attractive and responsive websites. Proficient in HTML, CSS, JavaScript, ReactJS, React Native, Bootstrap, Tailwind CSS, and jQuery. Committed to utilizing the latest technologies to deliver exceptional solutions.          </p>
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
         </div>
       </div>

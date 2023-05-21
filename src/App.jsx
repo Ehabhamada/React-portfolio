@@ -19,15 +19,15 @@ const App = () => {
   }, []);
 
   return (
-    <div basename={window.location.pathname || ''}>
+    <div basename={window.location.pathname || 'React-portfolio'}>
       <Header />
       <Nav />
       <Suspense fallback={<div>Loading...</div>}>
         <About />
         <Experience />
-        <Services />
+        {/* <Services /> */}
         <Portfolio />
-        <Testimonials />
+        {/* <Testimonials /> */}
         <Contact />
       <Footer />
       </Suspense>

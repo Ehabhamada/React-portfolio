@@ -11,8 +11,8 @@ function Contact() {
         <div data-aos="fade-right" className="Contact_options">
           <article className="Contact_option">
             <MdOutlineEmail className="Contact_option-icon"/>
-            <h4>Email</h4>
-            <h5 className="block">Wd.EhabHamada@gmail.com</h5>
+            <h4 >Email</h4>
+            <h5 className="text-[0.9rem]">Wd.EhabHamada@gmail.com</h5>
             <a
               href="mailto:Wd.EhabHamada@gmail.com"
               target="_blank"
